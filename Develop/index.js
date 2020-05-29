@@ -78,7 +78,7 @@ inquirer.prompt(
         "Contributors: ", response.contributers, "\n"
         
     ]
-    writeToFile("exReadme.md", respData);
+    writeToFile("README.md", respData);
 
         console.log(response.title);
         console.log("File written allegedly")
